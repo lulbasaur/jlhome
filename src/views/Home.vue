@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="home-container">
     <PageHeader msg="JLH"/>
   </div>
 </template>
@@ -17,7 +17,11 @@ export default {
 </script>
 
 <style lang="scss">
-.home {
-  margin-left: 200px;
+.home-container {
+  padding-right: 10%;
+  padding-left: 10%;
+}
+h2 {
+  padding: 5%;
 }
 </style>

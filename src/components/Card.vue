@@ -1,9 +1,9 @@
 <template lang="html">
   <div class="cardbox">
-  <vs-card vs-color="success">
+  <vs-card vs-color="primary">
     <vs-card-media vs-media="https://placeimg.com/640/480/any"></vs-card-media>
     <vs-card-header
-        vs-background-color="success"
+        vs-background-color="primary"
         vs-title="A nice title"
         vs-subtitle="A nice subtitle"
         vs-icon="check">
@@ -26,8 +26,6 @@ export default {
 
 <style lang="scss">
 .cardbox {
-  margin-left: 15%;
-  margin-right: 15%;
   height: 20%;
 }
 </style>

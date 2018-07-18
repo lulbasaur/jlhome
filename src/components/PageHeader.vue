@@ -1,9 +1,11 @@
 <template>
   <div class="viewheaderbox">
-    <h1>{{ msg }}</h1>
+    <div class="textfield">
+      <h1>{{ msg }}</h1>
       <p>
-        JERN LUKAS <br> HAMBERG
+        JERN LUKAS HAMBERG
       </p>
+    </div>
   </div>
 </template>
 
@@ -20,8 +22,9 @@ export default {
 .viewheaderbox {
   color: whitesmoke;
   background-color: rgb(78, 74, 74);
-  margin-left: 15%;
-  margin-right: 15%;
   height: 20%;
+}
+.textfield {
+  padding: 5%;
 }
 </style>
